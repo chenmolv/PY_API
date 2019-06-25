@@ -1,0 +1,67 @@
+[2019-05-0503:05:14 PM-Logclass.py-INFO]:用例名称：登陆
+[2019-05-0503:05:14 PM-Logclass.py-INFO]:请求地址： http://ip.taobao.com/service/getIpInfo.php?ip=2
+[2019-05-0503:05:14 PM-Logclass.py-INFO]:请求参数：{}
+[2019-05-0503:05:14 PM-connectionpool.py-DEBUG]:Starting new HTTP connection (1): ip.taobao.com:80
+[2019-05-0503:05:14 PM-connectionpool.py-DEBUG]:http://ip.taobao.com:80 "POST /service/getIpInfo.php?ip=2 HTTP/1.1" 200 None
+[2019-05-0503:05:14 PM-Logclass.py-INFO]:实际结果为：{"code":0,"data":{"ip":"2","country":"","area":"","region":"","city":"","county":"","isp":"","country_id":"","area_id":"","region_id":"","city_id":"","county_id":"","isp_id":""}}
+
+[2019-05-0503:05:14 PM-Logclass.py-INFO]:预期结果为："ip":"2"1111
+[2019-05-0503:05:24 PM-Logclass.py-INFO]:用例名称：删除数据
+[2019-05-0503:05:24 PM-Logclass.py-INFO]:请求地址：http://www.baidu.com
+[2019-05-0503:05:24 PM-Logclass.py-INFO]:请求参数：{
+"token":"{token}"
+}
+[2019-05-0503:05:24 PM-connectionpool.py-DEBUG]:Starting new HTTP connection (1): www.baidu.com:80
+[2019-05-0503:05:24 PM-connectionpool.py-DEBUG]:http://www.baidu.com:80 "POST /?token=%7Btoken%7D HTTP/1.1" 302 17931
+[2019-05-0503:05:24 PM-Logclass.py-INFO]:预期结果为：1
+[2019-05-0503:05:24 PM-Logclass.py-INFO]:预期与结果相同，测试通过！
+[2019-05-0503:44:11 PM-Logclass.py-INFO]:用例名称：登陆
+[2019-05-0503:44:11 PM-Logclass.py-INFO]:请求地址： http://ip.taobao.com/service/getIpInfo.php?ip=2
+[2019-05-0503:44:11 PM-Logclass.py-INFO]:请求参数：{}
+[2019-05-0503:44:11 PM-connectionpool.py-DEBUG]:Starting new HTTP connection (1): ip.taobao.com:80
+[2019-05-0503:44:11 PM-connectionpool.py-DEBUG]:http://ip.taobao.com:80 "POST /service/getIpInfo.php?ip=2 HTTP/1.1" 200 None
+[2019-05-0503:44:11 PM-Logclass.py-INFO]:实际结果为：{"code":0,"data":{"ip":"2","country":"","area":"","region":"","city":"","county":"","isp":"","country_id":"","area_id":"","region_id":"","city_id":"","county_id":"","isp_id":""}}
+
+[2019-05-0503:44:11 PM-Logclass.py-INFO]:预期结果为："ip":"2"1111
+[2019-05-0503:44:21 PM-Logclass.py-INFO]:用例名称：删除数据
+[2019-05-0503:44:21 PM-Logclass.py-INFO]:请求地址：http://www.baidu.com
+[2019-05-0503:44:21 PM-Logclass.py-INFO]:请求参数：{
+"token":"{token}"
+}
+[2019-05-0503:44:21 PM-connectionpool.py-DEBUG]:Starting new HTTP connection (1): www.baidu.com:80
+[2019-05-0503:44:21 PM-connectionpool.py-DEBUG]:http://www.baidu.com:80 "POST /?token=%7Btoken%7D HTTP/1.1" 302 17931
+[2019-05-0503:44:21 PM-Logclass.py-INFO]:预期结果为：1
+[2019-05-0503:44:21 PM-Logclass.py-INFO]:预期与结果相同，测试通过！
+[2019-05-0503:44:21 PM-Logclass.py-INFO]:用例名称：登陆
+[2019-05-0503:44:21 PM-Logclass.py-INFO]:请求地址： http://ip.taobao.com/service/getIpInfo.php?ip=2
+[2019-05-0503:44:21 PM-Logclass.py-INFO]:请求参数：{}
+[2019-05-0503:44:21 PM-connectionpool.py-DEBUG]:Starting new HTTP connection (1): ip.taobao.com:80
+[2019-05-0503:44:22 PM-connectionpool.py-DEBUG]:http://ip.taobao.com:80 "POST /service/getIpInfo.php?ip=2 HTTP/1.1" 200 None
+[2019-05-0503:44:22 PM-Logclass.py-INFO]:实际结果为：{"code":0,"data":{"ip":"2","country":"","area":"","region":"","city":"","county":"","isp":"","country_id":"","area_id":"","region_id":"","city_id":"","county_id":"","isp_id":""}}
+
+[2019-05-0503:44:22 PM-Logclass.py-INFO]:预期结果为："ip":"2"1111
+[2019-05-0503:44:32 PM-Logclass.py-INFO]:用例名称：删除数据
+[2019-05-0503:44:32 PM-Logclass.py-INFO]:请求地址：http://www.baidu.com
+[2019-05-0503:44:32 PM-Logclass.py-INFO]:请求参数：{
+"token":"{token}"
+}
+[2019-05-0503:44:32 PM-connectionpool.py-DEBUG]:Starting new HTTP connection (1): www.baidu.com:80
+[2019-05-0503:44:32 PM-connectionpool.py-DEBUG]:http://www.baidu.com:80 "POST /?token=%7Btoken%7D HTTP/1.1" 302 17931
+[2019-05-0503:44:32 PM-Logclass.py-INFO]:预期结果为：1
+[2019-05-2203:30:43 PM-Logclass.py-INFO]:用例名称：登陆
+[2019-05-2203:30:43 PM-Logclass.py-INFO]:请求地址： http://ip.taobao.com/service/getIpInfo.php?ip=2
+[2019-05-2203:30:43 PM-Logclass.py-INFO]:请求参数：{}
+[2019-05-2203:30:43 PM-connectionpool.py-DEBUG]:Starting new HTTP connection (1): ip.taobao.com:80
+[2019-05-2203:30:43 PM-connectionpool.py-DEBUG]:http://ip.taobao.com:80 "POST /service/getIpInfo.php?ip=2 HTTP/1.1" 200 None
+[2019-05-2203:30:43 PM-Logclass.py-INFO]:实际结果为：{"code":0,"data":{"ip":"2","country":"","area":"","region":"","city":"","county":"","isp":"","country_id":"","area_id":"","region_id":"","city_id":"","county_id":"","isp_id":""}}
+
+[2019-05-2203:30:43 PM-Logclass.py-INFO]:预期结果为："ip":"2"1111
+[2019-05-2203:30:53 PM-Logclass.py-INFO]:用例名称：删除数据
+[2019-05-2203:30:53 PM-Logclass.py-INFO]:请求地址：http://www.baidu.com
+[2019-05-2203:30:53 PM-Logclass.py-INFO]:请求参数：{
+"token":"{token}"
+}
+[2019-05-2203:30:53 PM-connectionpool.py-DEBUG]:Starting new HTTP connection (1): www.baidu.com:80
+[2019-05-2203:30:53 PM-connectionpool.py-DEBUG]:http://www.baidu.com:80 "POST /?token=%7Btoken%7D HTTP/1.1" 302 17931
+[2019-05-2203:30:53 PM-Logclass.py-INFO]:预期结果为：1
+[2019-05-2203:30:53 PM-Logclass.py-INFO]:预期与结果相同，测试通过！
